@@ -15,8 +15,8 @@ Founded with the mission to innovate and inspire, Stevens Electric Boatworks pro
 This GitHub repository only contains projects used by the Control Systems Team. For more information on the cooling system, drivetrain, hull, etc, [visit our website!](https://stevenseboat.org)
 
 ## [Manned Boat](https://github.com/Stevens-Electric-Boatworks/manned-boat/)  ([`Wiki`](https://github.com/Stevens-Electric-Boatworks/manned-boat/wiki))
-![](https://github.com/Stevens-Electric-Boatworks/Manned-Boat/blob/main/diagrams/overall_system_diagram_v2.png?raw=true)
-![](https://github.com/Stevens-Electric-Boatworks/Manned-Boat/blob/main/diagrams/ros_system_diagram_v2.png?raw=true)
+![](https://github.com/Stevens-Electric-Boatworks/Manned-Boat/blob/main/diagrams/overall_system_diagram_v3.png?raw=true)
+![](https://github.com/Stevens-Electric-Boatworks/Manned-Boat/blob/main/diagrams/ros_system_diagram_v3.png?raw=true)
 
 The Manned Boat utilizes Robot Operating System 2 (ROS2) to be able to provide advanced data monitoring, logging, and replay tools using both ROS tools and custom tooling. It also features a custom faults system, including latching/sticky faults, all sent to the shore system via a WebSocket connection.
 ## [Shore Client](https://github.com/Stevens-Electric-Boatworks/shore-client)
