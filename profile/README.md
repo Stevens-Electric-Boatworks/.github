@@ -13,6 +13,7 @@ Founded with the mission to innovate and inspire, Stevens Electric Boatworks pro
 # Our Projects
 
 > [!INFO]
+> 
 > This GitHub repository only contains projects used by the Control Systems Team. For more information on the cooling system, drivetrain, hull, etc, [visit our website!](https://stevenseboat.org)
 
 ### [Manned Boat](https://github.com/Stevens-Electric-Boatworks/manned-boat/)  ([`Wiki`](https://github.com/Stevens-Electric-Boatworks/manned-boat/wiki))
