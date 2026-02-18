@@ -12,7 +12,7 @@ Founded with the mission to innovate and inspire, Stevens Electric Boatworks pro
 
 # Our Projects
 
-This GitHub repository only contains projects used by the Control Systems Team. For more information on the cooling system, drivetrain, hull, etc, [visit our website!](https://stevenseboat.org)
+This GitHub repository only contains projects used by the Control Systems Team. For more information on the cooling system, drivetrain, hull, etc., [visit our website!](https://stevenseboat.org)
 
 ## [Manned Boat](https://github.com/Stevens-Electric-Boatworks/manned-boat/)  ([`Wiki`](https://github.com/Stevens-Electric-Boatworks/manned-boat/wiki))
 ![](https://github.com/Stevens-Electric-Boatworks/Manned-Boat/blob/main/diagrams/overall_system_diagram_v3.png?raw=true)
@@ -22,7 +22,17 @@ The Manned Boat utilizes Robot Operating System 2 (ROS2) to be able to provide a
 ## [Shore Client](https://github.com/Stevens-Electric-Boatworks/shore-client)
 ![](/_readme_imgs/shore_client.png)
 
+**Try it [on the web!](https://shore.stevenseboat.org)**
+
 The shore client/website allows team members to monitor boat parameters, including motor specifications, GPS location, and coolant temperatures. Furthermore, it allows us to remotely monitor diagnostic features of the boat, including ROS logs, node and CAN bus status, as well as manage boat faults.
+
+# [Waterboard Driver Dashboard](https://github.com/Stevens-Electric-Boatworks/waterboard)
+![](https://raw.githubusercontent.com/Stevens-Electric-Boatworks/waterboard/refs/heads/main/waterboard_main_page.png)
+
+**Try the [experimental web version](https://stevens-electric-boatworks.github.io/waterboard/)!**
+
+**Waterboard** is the custom-built driver dashboard deployed on the **Manned Boat**, developed using Flutter. The main goal of this Dashboard is to be the primary source of information for the Driver, and everything, from the color scheme, to the layout of components is optimized for high readability. It is also a debugging and control panel for the Control System Team, providing tools to help debug connection issues from both Waterboard and ROS.
+
 ## [Shore Server](https://github.com/Stevens-Electric-Boatworks/shore-server)
 
 The shore server performs shore-side data logging, as well as being the connection point for all boat. Data from the server is propagated to clients via a WebSocket.
